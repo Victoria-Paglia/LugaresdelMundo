@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Uruguay",
+        "description": "Un pais con varias playas y centros turisticos!",
+        "imgSrc": "img/Uruguay.jpg"
+    },
+    {
+        "name": "Argentina",
+        "description": "Hermosos parques, museos y teatros!",
+        "imgSrc": "img/Argentina.jpg"
+    },
+    {
+        "name": "Brasil",
+        "description": "Playas, museos y centros culturales!",
+        "imgSrc": "img/Brasil.jpg"
+    },
+    {
+        "name": "Estados Unidos",
+        "description": "Monumentos, casinos, restaurantes y mas...",
+        "imgSrc": "img/EstadosUnidos.jpg"
+    },
+    {
+        "name": "España",
+        "description": "Palacios, castillos, catedrales, museos...",
+        "imgSrc": "img/España.jpg"
+    },
+    {
+        "name": "Paris",
+        "description": "Monumentos como la torre Eifel, museo del Louvre...",
+        "imgSrc": "img/Paris.jpg"
+    }
+]
