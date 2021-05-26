@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset=UTF-8>
+  <title>Lugares del mundo</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/dropzone.css" rel="stylesheet">
+  <link href="css/Style-myProfile.css" rel="stylesheet">
+</head>
+
+<body>
+  <main role="main">
+    <div class="container mt-5">
+      <div class="text-center p-4">
+        <h2>Mi perfil</h2>
+        <p class="lead">Aquí podras realizar cambios en tus datos personales y de contacto</p>
+        <p class="small alert-warning py-3"><strong>Nota: </strong>por favor, recuerda actualizar tus
+          datos de contacto para poder contactarnos en caso de ser necesario. <strong>Gracias!</strong></p>
+      </div>
+
+      <div style="margin-left: 10cm; margin-right: 10cm;">
+        <label for="urlImg">Imagen de perfil:</label><br>
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/1Jk1Mtb/USER.png" alt="USER" borde="0"class="img-thumbnail"></a>
+        <br>
+      </div>
+
+      <div style="margin-left: 10cm; margin-right: 10cm;">
+
+        <input type="text" class="form-control" id="imgUrl" placeholder="Ingrese url para imagen de perfil" value=""><br><br>
+
+        <h5>Datos personales:</h5><br>
+
+        <dt><label for="name">Nombres</label></dt>
+        <input type="text" id="name" class="form-control" placeholder="" value=""><br>
+
+        <dt><label for="surname">Apellidos</label></dt>
+        <input type="text" id="surname" class="form-control" placeholder="" value=""><br>
+
+        <dt><label for="age">Edad</label></dt>
+        <input type="number" id="age" class="form-control" placeholder="" value="" min="18" max="75"><br> <br>
+
+        <h5>Datos de contacto:</h5><br>
+
+        <dt><label for="e-mail">E-mail</label></dt>
+        <input type="email" id="e-mail" class="form-control" placeholder="" value=""><br>
+
+        <dt><label for="phone">Teléfono</label></dt>
+        <input type="number" id="phone" class="form-control" placeholder="" value=""><br> <br>
+
+        <button id="envCambios" class="btn btn-primary btn-lg btn-block">Guardar cambios</button> <br><br>
+
+      </div>
+      <div class="alert fade alert-success" role="alert" id="alertResult">
+        <span id="resultSpan"></span>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div id="spinner-wrapper">
+        <div class="lds-ring">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/dropzone.js"></script>
+      <script src="js/init.js"></script>
+      <script src="js/my-profile.js"></script>
+</body>
+
+
+</html>
